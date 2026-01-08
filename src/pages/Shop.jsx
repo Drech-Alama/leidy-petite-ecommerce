@@ -31,11 +31,11 @@ export default function Shop() {
         placeholder="Buscar producto..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-full md:w-1/3 border p-2 rounded-md mb-6"
+        className="w-full md:w-1/3 border border-[var(--color-medio)] p-2 rounded-md mb-6"
       />
 
       {/* PRODUCTOS */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {filtered.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

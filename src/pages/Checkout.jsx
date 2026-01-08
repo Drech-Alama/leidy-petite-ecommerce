@@ -10,7 +10,7 @@ export default function Checkout() {
   );
 
   return (
-    <div className="max-w-md mx-auto text-center space-y-4">
+    <div className="max-w-md mx-auto text-center space-y-4 py-5">
       {/* BOTÓN VOLVER */}
       <Link to="/cart" className="inline-block text-gray-600 underline">
         ← Volver al carrito
@@ -27,7 +27,7 @@ export default function Checkout() {
       <a
         href={`https://wa.me/51912245169?text=${message}`}
         target="_blank"
-        className="bg-green-600 text-white p-4 block rounded"
+        className="bg-[var(--color-medio)] text-white p-4 block rounded"
       >
         Enviar comprobante por WhatsApp
       </a>
