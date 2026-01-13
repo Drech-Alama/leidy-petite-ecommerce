@@ -15,7 +15,7 @@ export default function AboutUs() {
       </div>
 
       {/* MISIÓN Y VISIÓN */}
-      <section className="relative bg-[url('/img/misionVision.jpeg')] bg-cover bg-center">
+      <section className="relative bg-[url('/img/misionVision.webp')] bg-cover bg-center">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-75"></div>
 
@@ -92,7 +92,7 @@ export default function AboutUs() {
               <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-blue-300 overflow-hidden shadow-lg">
                 <img
                   className="w-full h-full object-cover"
-                  src="../img/fundadora.jpg"
+                  src="../img/fundadora.webp"
                   alt="Fundadora Leidy"
                 />
               </div>
