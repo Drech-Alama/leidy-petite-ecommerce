@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import AboutUs from "./pages/AboutUs";
 import Shop from "./pages/Shop";
 import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
+import ButtonWhatsapp from "./components/ButtonWhatsApp";
 
 function App() {
   return (
@@ -27,6 +27,8 @@ function App() {
         </main>
 
         <Footer />
+
+        <ButtonWhatsapp />
       </div>
     </CartProvider>
   );
