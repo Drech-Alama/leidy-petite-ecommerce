@@ -11,14 +11,21 @@ export function CartProvider({ children }) {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
+  // cambie esto
   const addToCart = (product) => {
     setCart((prev) => {
-      const exist = prev.find((p) => p.id === product.id);
+      const exist = prev.find(
+        (p) => p.id === product.id && p.selectedColor === product.selectedColor
+      );
+
       if (exist) {
         return prev.map((p) =>
-          p.id === product.id ? { ...p, quantity: p.quantity + 1 } : p
+          p.id === product.id && p.selectedColor === product.selectedColor
+            ? { ...p, quantity: p.quantity + 1 }
+            : p
         );
       }
+
       return [...prev, { ...product, quantity: 1 }];
     });
   };

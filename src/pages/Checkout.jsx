@@ -7,10 +7,18 @@ export default function Checkout() {
   const [metodo, setMetodo] = useState("");
   const [showModal, setShowModal] = useState(false);
 
-  // const message = encodeURIComponent(
-  //   cart.map((p) => `• ${p.name} x${p.quantity}`).join("\n") +
-  //     `\nTotal: S/ ${getTotal()}`
-  // );
+  // Modifiqué aquí
+  const message = encodeURIComponent(
+    cart
+      .map(
+        (p) =>
+          `${p.name}
+• Color: ${p.selectedColor || "-"}
+• Cantidad: ${p.quantity}
+• Precio: S/ ${p.price}`
+      )
+      .join("\n\n") + `\n\nTotal: S/ ${getTotal()}`
+  );
 
   const handleEnviarPago = () => {
     if (!metodo) return;
@@ -18,9 +26,9 @@ export default function Checkout() {
   };
 
   const handleAceptar = () => {
-    clearCart(); // 🧹 vacía el carrito
+    // clearCart(); // 🧹 vacía el carrito
     setShowModal(false);
-    window.location.href = "/";
+    // window.location.href = "/";
   };
 
   return (
@@ -155,14 +163,14 @@ export default function Checkout() {
       </button>
 
       {/* WHATSAPP */}
-      {/* <a
+      <a
         href={`https://wa.me/51912245169?text=${message}`}
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-600 text-white p-4 block rounded"
       >
         Enviar comprobante por WhatsApp
-      </a> */}
+      </a>
 
       {/* MODAL */}
       {showModal && (
