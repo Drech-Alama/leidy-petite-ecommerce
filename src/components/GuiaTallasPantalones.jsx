@@ -1,0 +1,148 @@
+import { useState } from "react";
+
+export default function GuiaTallasPantalones() {
+  const [current, setCurrent] = useState(0);
+
+  const tablas = [
+    {
+      titulo: "PANTALONES",
+      filas: [
+        ["TALLAS", "XS-C", "S-C", "M-C", "L-C"],
+        ["CINTURA", "36", "38", "40", "42"],
+        ["LARGO", "63", "73", "76", "79"],
+      ],
+    },
+    {
+      titulo: "BLUSAS",
+      filas: [
+        ["TALLAS", "XS-C", "S-C", "M-C", "L-C"],
+        ["BUSTO", "80-86", "86-90", "90-94", "95-101"],
+        ["LARGO DE CUERPO", "55", "56", "57", "58"],
+      ],
+    },
+    {
+      titulo: "VESTIDOS",
+      filas: [
+        ["TALLA", "XS-C", "S-C", "M-C", "L-C"],
+        ["BUSTO", "80-86", "86-90", "90-94", "95-101"],
+        ["LARGO", "61", "71", "74", "77"],
+      ],
+    },
+  ];
+
+  const next = () => {
+    setCurrent((prev) => (prev + 1) % tablas.length);
+  };
+
+  const prev = () => {
+    setCurrent((prev) => (prev === 0 ? tablas.length - 1 : prev - 1));
+  };
+
+  return (
+    <section
+      className="relative py-4 bg-cover bg-center"
+      style={{
+        backgroundImage: "url('img/fondoTabla.jfif')",
+      }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      <div className="relative max-w-6xl mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-6 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold">Guía de Tallas</h2>
+          <p className="mt-2 text-gray-200">
+            Encuentra la talla perfecta para tus pantalones
+          </p>
+        </div>
+
+        {/* Slider container */}
+        <div className="relative overflow-hidden">
+          {/* Slides */}
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{
+              transform: `translateX(-${current * 100}%)`,
+            }}
+          >
+            {tablas.map((tabla, index) => (
+              <div
+                key={index}
+                className="w-full flex-shrink-0 flex justify-center"
+              >
+                <div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-6">
+                  <h3 className="text-center text-lg font-semibold mb-4 text-gray-800">
+                    {tabla.titulo}
+                  </h3>
+
+                  <table className="w-full border border-gray-200 text-center text-sm rounded-lg overflow-hidden">
+                    <tbody>
+                      {tabla.filas.map((fila, i) => (
+                        <tr
+                          key={i}
+                          className={
+                            i === 0
+                              ? "bg-[var(--color-claro)] font-semibold"
+                              : ""
+                          }
+                        >
+                          {fila.map((celda, j) => (
+                            <td
+                              key={j}
+                              className={`border px-3 py-2 ${
+                                j === 0
+                                  ? "font-semibold text-gray-800"
+                                  : "text-gray-700"
+                              }`}
+                            >
+                              {celda}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+
+                  {/* <p className="text-xs text-center text-gray-500 mt-4">
+                    Medidas en centímetros
+                  </p> */}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Botones */}
+          <button
+            onClick={prev}
+            className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
+          >
+            ‹
+          </button>
+
+          <button
+            onClick={next}
+            className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
+          >
+            ›
+          </button>
+        </div>
+
+        {/* Indicadores */}
+        <div className="flex justify-center gap-3 mt-8">
+          {tablas.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrent(index)}
+              className={`w-3 h-3 rounded-full transition cursor-pointer ${
+                current === index
+                  ? "bg-[var(--color-claro)] scale-110"
+                  : "bg-white/50"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

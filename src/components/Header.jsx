@@ -17,17 +17,33 @@ export default function Header() {
     {
       name: "Formal",
       slug: "formal",
-      sub: ["Polos", "Pantalones", "Faldas", "Chompas", "Busos"],
+      sub: [
+        "Vestidos",
+        "Blazers",
+        "Conjuntos Formales",
+        "Blusas",
+        "Pantalones",
+      ],
     },
     {
       name: "Deporte",
       slug: "sport",
-      sub: ["Polos", "Pantalones", "Busos"],
+      sub: ["Polos", "Pantalones", "Busos", "Tops", "Faldas-Shorts"],
     },
     {
-      name: "Ocasión",
-      slug: "ocasion",
-      sub: ["Faldas", "Polos", "Chompas"],
+      name: "Diario",
+      slug: "diario",
+      sub: ["Polos", "Pantalones", "Faldas", "Chompas", "Shorts"],
+    },
+    {
+      name: "Casual",
+      slug: "casual",
+      sub: ["Blusas Elegantes", "Pantalones", "Faldas", "Conjuntos"],
+    },
+    {
+      name: "Gala",
+      slug: "gala",
+      sub: ["Vestidos Elegantes"],
     },
   ];
 

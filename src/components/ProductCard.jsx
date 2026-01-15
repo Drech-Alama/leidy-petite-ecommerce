@@ -1,33 +1,86 @@
+import { useState } from "react";
 import { useCart } from "../context/CartContext";
 
 export default function ProductCard({ product }) {
   const { addToCart, increaseQty, decreaseQty, getProductQty } = useCart();
-
   const qty = getProductQty(product.id);
 
+  // Color por defecto = primer color
+  const [selectedColor, setSelectedColor] = useState(
+    Array.isArray(product.colors) ? product.colors[0] : null
+  );
+
+  const colorMap = {
+    Blanco: "bg-white border",
+    Negro: "bg-black",
+    Azul: "bg-blue-600",
+    Rojo: "bg-red-600",
+    Verde: "bg-green-600",
+    Gris: "bg-gray-400",
+    Marrón: "bg-amber-800",
+    Plateado: "bg-gray-300",
+    Plomo: "bg-gray-500",
+  };
+
   return (
-    <div className="border border-gray-100 rounded-lg p-4 shadow-md">
+    <div className="border border-gray-100 rounded-lg p-4 shadow-md bg-white">
+      {/* IMAGEN */}
       <img
         src={product.image}
         alt={product.name}
-        className="h-64 w-full object-cover mb-3"
+        className="h-64 w-full object-cover mb-3 rounded"
       />
 
-      <h3 className="font-semibold text-xl">{product.name}</h3>
-      <p className="font-semibold">S/ {product.price}</p>
-      <p className="text-gray-600">{product.size}</p>
-      <p className="text-gray-600">{product.colors}</p>
+      {/* INFO */}
+      <h3 className="font-semibold text-lg">{product.name}</h3>
+      <p className="font-bold text-lg">S/ {product.price}</p>
 
-      {/* BOTÓN O CONTROLES */}
+      {/* TALLAS */}
+      {Array.isArray(product.size) && (
+        <p className="text-gray-600 text-sm mt-1">
+          Tallas: {product.size.join(" · ")}
+        </p>
+      )}
+
+      {/* COLORES */}
+      {Array.isArray(product.colors) && (
+        <div className="mt-2">
+          <p className="text-sm text-gray-600 mb-1">Colores</p>
+          <div className="flex items-center gap-2">
+            {product.colors.map((color) => (
+              <button
+                key={color}
+                type="button"
+                title={color}
+                onClick={() => setSelectedColor(color)}
+                className={`w-5 h-5 rounded-full transition border-2 cursor-pointer
+                  ${colorMap[color] || "bg-gray-300"}
+                  ${
+                    selectedColor === color
+                      ? "ring-1 ring-black scale-110"
+                      : "border-gray-300"
+                  }`}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* BOTÓN / CONTROLES */}
       {qty === 0 ? (
         <button
-          onClick={() => addToCart(product)}
-          className="mt-3 w-full bg-[var(--color-medio)] text-white font-bold py-2 rounded cursor-pointer"
+          onClick={() =>
+            addToCart({
+              ...product,
+              selectedColor,
+            })
+          }
+          className="mt-4 w-full bg-[var(--color-medio)] text-white font-bold py-2 rounded"
         >
           🛒 Agregar al carrito
         </button>
       ) : (
-        <div className="mt-3 flex items-center justify-between">
+        <div className="mt-4 flex items-center justify-between">
           <button
             onClick={() => decreaseQty(product.id)}
             className="px-3 py-1 border rounded"
