@@ -15,6 +15,16 @@ export default function Header() {
 
   const categories = [
     {
+      name: "Diario",
+      slug: "diario",
+      sub: ["Polos", "Pantalones", "Faldas", "Chompas", "Shorts"],
+    },
+    {
+      name: "Casual",
+      slug: "casual",
+      sub: ["Blusas Elegantes", "Pantalones", "Faldas", "Conjuntos"],
+    },
+    {
       name: "Formal",
       slug: "formal",
       sub: [
@@ -29,16 +39,6 @@ export default function Header() {
       name: "Deporte",
       slug: "sport",
       sub: ["Polos", "Pantalones", "Busos", "Tops", "Faldas-Shorts"],
-    },
-    {
-      name: "Diario",
-      slug: "diario",
-      sub: ["Polos", "Pantalones", "Faldas", "Chompas", "Shorts"],
-    },
-    {
-      name: "Casual",
-      slug: "casual",
-      sub: ["Blusas Elegantes", "Pantalones", "Faldas", "Conjuntos"],
     },
     {
       name: "Gala",
