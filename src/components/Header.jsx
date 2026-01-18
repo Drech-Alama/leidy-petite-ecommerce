@@ -17,12 +17,12 @@ export default function Header() {
     {
       name: "Diario",
       slug: "diario",
-      sub: ["Polos", "Pantalones", "Faldas", "Chompas", "Shorts"],
+      sub: ["polos", "pantalones", "faldas", "chompas", "shorts"],
     },
     {
       name: "Casual",
       slug: "casual",
-      sub: ["Blusas Elegantes", "Pantalones", "Faldas", "Conjuntos"],
+      sub: ["blusas", "pantalones", "faldas", "conjuntos"],
     },
     {
       name: "Formal",

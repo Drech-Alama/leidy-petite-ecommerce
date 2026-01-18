@@ -104,9 +104,10 @@ export default function GuiaTallasPantalones() {
                     </tbody>
                   </table>
 
-                  {/* <p className="text-xs text-center text-gray-500 mt-4">
-                    Medidas en centímetros
-                  </p> */}
+                  <p className="text-md text-center text-gray-700 mt-4">
+                    Talla C "corto" Estas tallas fueron creadas para gente
+                    petite
+                  </p>
                 </div>
               </div>
             ))}

@@ -1,4 +1,6 @@
 const products = [
+  //Sección Diario
+  // Polos
   {
     id: 1,
     name: "Polo Ajustado Tela Algodón",
@@ -49,6 +51,7 @@ const products = [
     subcategory: "polos",
     image: "/prendas/ropa-diario/polos/oversizeTelaAlgodon.avif",
   },
+  // Pantalones
   {
     id: 6,
     name: "Pantalón Denim Estilo Culotte",
@@ -99,6 +102,7 @@ const products = [
     subcategory: "pantalones",
     image: "/prendas/ropa-diario/pantalones/militarEstiloRecto.avif",
   },
+  // Faldas
   {
     id: 11,
     name: "Falda Carrugado Tela Rib",
@@ -141,13 +145,303 @@ const products = [
   },
   {
     id: 15,
-    name: "Falda Short Tela Denim",
+    name: "Falda shorts tela denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Rojo"],
     price: 119,
     category: "diario",
     subcategory: "faldas",
     image: "/prendas/ropa-diario/faldas/shortTelaDenim.avif",
+  },
+
+  // Chalecos, chompas y abrigos
+  {
+    id: 16,
+    name: "Casaca con capucha a la cintura Tela denim con franela",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/CasacaconcapuchaalacinturaTeladenimconfranela.avif",
+  },
+  {
+    id: 17,
+    name: "Chaleco Denim cuello V",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/ChalecoDenimcuelloV.avif",
+  },
+  {
+    id: 18,
+    name: "Chompa cuello redondo Tela-Algodón",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/ChompacuelloredondoTela-Algodon.avif",
+  },
+  {
+    id: 19,
+    name: "Chompa de hilo cuello V",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/ChompadehilocuelloV.avif",
+  },
+  {
+    id: 20,
+    name: "Chompa Overzise concapucha Tela-Algodón",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/ChompaOverziseconcapuchaTela-Algodon.avif",
+  },
+  {
+    id: 21,
+    name: "Polera con Capucha Tela Jersey",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "chompas",
+    image:
+      "/prendas/ropa-diario/chalecos-chompas-abrigos/PoleraconCapuchaTelaJersey.avif",
+  },
+  // Shorts
+  {
+    id: 22,
+    name: "Short bermuda Tela-Denim",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "shorts",
+    image: "/prendas/ropa-diario/short/ShortbermudaTela-Denim.avif",
+  },
+  {
+    id: 23,
+    name: "Short cargo cintura Tela Denim",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "shorts",
+    image: "/prendas/ropa-diario/short/ShortcargocinturaTelaDenim.avif",
+  },
+  {
+    id: 24,
+    name: "Short Clásico cintura Tela Denim",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "shorts",
+    image: "/prendas/ropa-diario/short/ShortClasicocinturaTelaDenim.avif",
+  },
+  {
+    id: 25,
+    name: "Shortcorto vaquero Tela Denim",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "shorts",
+    image: "/prendas/ropa-diario/short/ShortcortovaqueroTelaDenim.avif",
+  },
+  {
+    id: 26,
+    name: "Short Falda a la cintura Tela Denim",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "diario",
+    subcategory: "shorts",
+    image: "/prendas/ropa-diario/short/ShortFaldaalacinturaTelaDenim.avif",
+  },
+
+  //Sección Casual
+  // Blusas
+  {
+    id: 27,
+    name: "Blusa ajustada Mangalarga Tela-Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-casual/blusas/BlusaajustadaMangalargaTela-Poliester.avif",
+  },
+  {
+    id: 28,
+    name: "Blusa manga corta conrayas Tela Chalis",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "blusas",
+    image: "/prendas/ropa-casual/blusas/BlusamangacortaconrayasTelaChalis.avif",
+  },
+  {
+    id: 29,
+    name: "Blusa manga Estilo corto Tela-Camisero",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-casual/blusas/BlusamangaEstilocortoTela-Camisero.avif",
+  },
+  {
+    id: 30,
+    name: "Blusa manga larga Estilo corto Tela-Popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-casual/blusas/BlusamangalargaEstilocortoTela-Popelina.avif",
+  },
+  {
+    id: 31,
+    name: "Blusa mangalarga oversize Tela-Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-casual/blusas/BlusamangalargaoversizeTela-Poliester.avif",
+  },
+
+  //Pantalones
+  {
+    id: 32,
+    name: "Pantalon a la cintura con bolsillos delanteros y basta ajustable Estilo wide leg Tela Drill",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-casual/pantalones/PantalonalacinturaconbolsillosdelanterosybastaajustableEstilowidelegTelaDrill.avif",
+  },
+  {
+    id: 33,
+    name: "Pantalon cargo semicadera Tela Tafeta",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-casual/pantalones/PantaloncargosemicaderaTelaTafeta.avif",
+  },
+  {
+    id: 34,
+    name: "Pantalon oversize con ajuste de largo de pierna Tela popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-casual/pantalones/PantalonoversizeconajustedelargodepiernaTelapopelina.avif",
+  },
+  {
+    id: 35,
+    name: "Pantalon palazo a la cintura Basta con ajustes Tela Corduroy",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-casual/pantalones/PantalonpalazoalacinturaBastaconajustesTelaCorduroy.avif",
+  },
+  {
+    id: 36,
+    name: "Pantalon versatil y comodo Estilo recto Tela Rayon",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-casual/pantalones/PantalonversatilycomodoEstilorectoTelaRayon.avif",
+  },
+
+  // Faldas
+  {
+    id: 37,
+    name: "Falda casual estilo cargo con detalle de botones. Diseño versatil con aberturas Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "faldas",
+    image:
+      "/prendas/ropa-casual/faldas/FaldacasualestilocargocondetalledebotonesDiseñoversatilconaberturasTelaPoliester.avif",
+  },
+  {
+    id: 38,
+    name: "Falda corta de cuero Cintura alta y ajustada",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "faldas",
+    image:
+      "/prendas/ropa-casual/faldas/FaldacortadecueroCinturaaltayajustada.avif",
+  },
+  {
+    id: 39,
+    name: "Falda pomposa de cintura alta Tela Tafeta",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "faldas",
+    image:
+      "/prendas/ropa-casual/faldas/FaldapomposadecinturaaltaTelaTafeta.avif",
+  },
+  {
+    id: 40,
+    name: "Falda Vintage de Tiro Alto con Abertura Tela Drill",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "faldas",
+    image:
+      "/prendas/ropa-casual/faldas/FaldaVintagedeTiroAltoconAberturaTelaDrill.avif",
+  },
+  {
+    id: 41,
+    name: "Mini falda a la cintura con cierre invisible Diseño moderno y elegante Tela Gamuza sintética",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "faldas",
+    image:
+      "/prendas/ropa-casual/faldas/MinifaldaalacinturaconcierreinvisibleDisenomodernoyeleganteTelaGamuzasintetica.avif",
   },
 ];
 
