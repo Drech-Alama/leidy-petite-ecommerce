@@ -7,25 +7,26 @@ export default function GuiaTallasPantalones() {
     {
       titulo: "PANTALONES",
       filas: [
-        ["TALLAS", "XS-C", "S-C", "M-C", "L-C"],
-        ["CINTURA", "36", "38", "40", "42"],
-        ["LARGO", "63", "73", "76", "79"],
+        ["TALLAS", "(XS-C)", "(S-C)", "(M-C)", "(L-C)"],
+        ["CINTURA", "64", "70", "76", "82"],
+        ["LARGO", "85", "87", "89", "91"],
       ],
     },
     {
-      titulo: "BLUSAS",
+      titulo: "POLOS",
       filas: [
-        ["TALLAS", "XS-C", "S-C", "M-C", "L-C"],
+        ["TALLAS", "(XS-C)", "(S-C)", "(M-C)", "(L-C)"],
         ["BUSTO", "80-86", "86-90", "90-94", "95-101"],
-        ["LARGO DE CUERPO", "55", "56", "57", "58"],
+        ["LARGO DESDE HOMBRO", "50", "52", "54", "56"],
       ],
     },
     {
       titulo: "VESTIDOS",
       filas: [
-        ["TALLA", "XS-C", "S-C", "M-C", "L-C"],
+        ["TALLA", "(XS-C)", "(S-C)", "(M-C)", "(L-C)"],
         ["BUSTO", "80-86", "86-90", "90-94", "95-101"],
-        ["LARGO", "61", "71", "74", "77"],
+        ["CINTURA", "62-66", "66-70", "70-74", "75-81"],
+        ["LARGO", "72", "73", "774", "75"],
       ],
     },
   ];
@@ -52,8 +53,8 @@ export default function GuiaTallasPantalones() {
         {/* Header */}
         <div className="text-center mb-6 text-white">
           <h2 className="text-3xl md:text-4xl font-bold">Guía de Tallas</h2>
-          <p className="mt-2 text-gray-200">
-            Encuentra la talla perfecta para tus pantalones
+          <p className="mt-2 text-gray-200 text-xl">
+            Encuentra la talla perfecta para tus prendas
           </p>
         </div>
 
@@ -104,9 +105,9 @@ export default function GuiaTallasPantalones() {
                     </tbody>
                   </table>
 
-                  <p className="text-md text-center text-gray-700 mt-4">
-                    Talla C "corto" Estas tallas fueron creadas para gente
-                    petite
+                  <p className="text-md text-center text-black font-semibold mt-4">
+                    Talla C "corto": Diseñada especialmente para personas
+                    "petite".
                   </p>
                 </div>
               </div>
