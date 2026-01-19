@@ -37,7 +37,7 @@ export default function Header() {
     {
       name: "Gala",
       slug: "gala",
-      sub: ["Vestidos Elegantes"],
+      sub: ["vestidos elegantes"],
     },
   ];
 

@@ -1029,6 +1029,65 @@ const products = [
     image:
       "/prendas/ropa-deportiva/falda-short/ShortoversizeconportacelularinternoTelapoliester.avif",
   },
+
+  // Sección Gala
+  // Vestidos de gala
+
+  {
+    id: 93,
+    name: "Elegante Vestido de Noche con Abertura, Nudo Torcido y Tirantes Cruzados Espalda descubierta Tela Saltin",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "gala",
+    subcategory: "vestidos elegantes",
+    image:
+      "/prendas/gala/vestido-gala/EleganteVestidodeNocheconAberturaNudoTorcidoyTirantesCruzadosEspaldadescubiertaTelaSaltin.avif",
+  },
+  {
+    id: 94,
+    name: "Elegante vestido de sirena de color sólido con hombros descubiertos, con abertura alta y dobladillo asimétrico Tela saltin",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "gala",
+    subcategory: "vestidos elegantes",
+    image:
+      "/prendas/gala/vestido-gala/ElegantevestidodesirenadecolorsolidoconhombrosdescubiertosconaberturaaltaydobladilloasimetricoTelasaltin.avif",
+  },
+  {
+    id: 95,
+    name: "Elegante vestido largo sin mangas con cuello halter y espalda descubierta Tela Saltin",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "gala",
+    subcategory: "vestidos elegantes",
+    image:
+      "/prendas/gala/vestido-gala/ElegantevestidolargosinmangasconcuellohalteryespaldadescubiertaTelaSaltin.avif",
+  },
+  {
+    id: 96,
+    name: "Vestido elegante ajustado y corto con mangas largas acampanadas Tela brillante",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "gala",
+    subcategory: "vestidos elegantes",
+    image:
+      "/prendas/gala/vestido-gala/VestidoeleganteajustadoycortoconmangaslargasacampanadasTelabrillante.avif",
+  },
+  {
+    id: 97,
+    name: "Vestido largo sin mangas con cortes en una pierna Tela Saltin",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "gala",
+    subcategory: "vestidos elegantes",
+    image:
+      "/prendas/gala/vestido-gala/VestidolargosinmangasconcortesenunapiernaTelaSaltin.avif",
+  },
 ];
 
 export default products;
