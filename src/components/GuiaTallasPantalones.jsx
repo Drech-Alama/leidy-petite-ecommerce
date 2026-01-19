@@ -91,7 +91,7 @@ export default function GuiaTallasPantalones() {
                           {fila.map((celda, j) => (
                             <td
                               key={j}
-                              className={`border px-3 py-2 ${
+                              className={`border px-2 py-2 ${
                                 j === 0
                                   ? "font-semibold text-gray-800"
                                   : "text-gray-700"

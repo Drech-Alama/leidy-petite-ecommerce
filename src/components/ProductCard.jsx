@@ -7,7 +7,7 @@ export default function ProductCard({ product }) {
 
   // Color por defecto = primer color
   const [selectedColor, setSelectedColor] = useState(
-    Array.isArray(product.colors) ? product.colors[0] : null
+    Array.isArray(product.colors) ? product.colors[0] : null,
   );
 
   const colorMap = {
@@ -20,6 +20,11 @@ export default function ProductCard({ product }) {
     Marrón: "bg-amber-800",
     Plateado: "bg-gray-300",
     Plomo: "bg-gray-500",
+    Arena: "bg-amber-200",
+    Beige: "bg-neutral-400",
+    Camell: "bg-yellow-800",
+    Rosado: "bg-rose-400",
+    Celeste: "bg-blue-200",
   };
 
   return (
