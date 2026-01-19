@@ -786,6 +786,249 @@ const products = [
     image:
       "/prendas/ropa-formal/pantalones/PantalonpalazoalacinturaconpinzasdelanterasTelaCorduroy.avif",
   },
+
+  // Sección Deporte
+  // Polos
+  {
+    id: 72,
+    name: "Camiseta cropped que deja al descubierto el ombligo, diseñado con cuello redondo y mangas cortas. Tela Poliéster",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "polos",
+    image:
+      "/prendas/ropa-deportiva/polos/CamisetacroppedquedejaaldescubiertoelombligodisenadoconcuelloredondoymangascortasTelaPoliester.avif",
+  },
+  {
+    id: 73,
+    name: "Camiseta de manga corta color sólido con hombro inclinado Material Poliéster",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "polos",
+    image:
+      "/prendas/ropa-deportiva/polos/CamisetademangacortacolorsolidoconhombroinclinadoMaterialPoliester.avif",
+  },
+  {
+    id: 74,
+    name: "Camiseta Deportiva de Manga Corta Color Sólido con Detalles de Malla y Transpirable",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "polos",
+    image:
+      "/prendas/ropa-deportiva/polos/CamisetaDeportivadeMangaCortaColorSolidoconDetallesdeMallayTranspirable.avif",
+  },
+  {
+    id: 75,
+    name: "Camiseta Oversize  con manga corta Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "polos",
+    image:
+      "/prendas/ropa-deportiva/polos/CamisetaOversizeconmangacortaTelaPoliester.avif",
+  },
+  {
+    id: 76,
+    name: "Camisetas Deportivas Sin Mangas Tejido Transpirable y Elástico Diseño con Abertura Lateral Cuello Redondo y Corte H para Gimnasio",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "polos",
+    image:
+      "/prendas/ropa-deportiva/polos/CamisetasDeportivasSinMangasTejidoTranspirableyElasticoDisenoconAberturaLateralCuelloRedondoyCorteHparaGimnasio.avif",
+  },
+
+  // Pantalones
+  {
+    id: 77,
+    name: "Conjunto de pantalon recto y polo manga corta. Tela Poliester.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-deportiva/pantalones/ConjuntodepantalonrectoypolomangacortaTelaPoliester.avif",
+  },
+  {
+    id: 78,
+    name: "Leggins de cintura alta ajustado. Tela Nailon.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-deportiva/pantalones/LegginsdecinturaaltaajustadoTelaNailon.avif",
+  },
+  {
+    id: 79,
+    name: "Pantalón de pierna ancha con drapeado completo cordón ajustable y bolsillos Tela viscosa",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-deportiva/pantalones/PantalondepiernaanchacondrapeadocompletocordonajustableybolsillosTelaviscosa.avif",
+  },
+  {
+    id: 80,
+    name: "Pantalón deportivo holgado con un parche de cinturón de color sólido. Tela Poliéster.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-deportiva/pantalones/PantalondeportivoholgadoconunparchedecinturondecolorsolidoTelaPoliester.avif",
+  },
+  {
+    id: 81,
+    name: "Pantalones cargo color sólido con cintura ajustable y bolsillos grandes ideales para deporte",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-deportiva/pantalones/Pantalonescargocolorsolidoconcinturaajustableybolsillosgrandesidealesparadeporte.avif",
+  },
+
+  // Busos
+  {
+    id: 82,
+    name: "Conjunto deportivo casual holgado de fibra con diseño de letras bordadas Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "buzos",
+    image:
+      "/prendas/ropa-deportiva/buzos/ConjuntodeportivocasualholgadodefibracondisenodeletrasbordadasTelaPoliester.avif",
+  },
+  {
+    id: 83,
+    name: "Conjunto deportivo. casaca con cierre y buso con cordon en la pretina para ajustar Tela Licra",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "buzos",
+    image:
+      "/prendas/ropa-deportiva/buzos/ConjuntodeportivocasacaconcierreybusoconcordonenlapretinaparaajustarTelaLicra.webp",
+  },
+  {
+    id: 84,
+    name: "Conjuntos deportivo ajustado Casaca mas leggins Tela licra",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "buzos",
+    image:
+      "/prendas/ropa-deportiva/buzos/ConjuntosdeportivoajustadoCasacamaslegginsTelalicra.avif",
+  },
+
+  // Tops
+  {
+    id: 85,
+    name: "Camiseta Deportiva con Tira Reflectante en la Espalda Diseño Sólido Tela Nailon",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "tops",
+    image:
+      "/prendas/ropa-deportiva/tops/CamisetaDeportivaconTiraReflectanteenlaEspaldaDisenoSolidoTelaNailon.avif",
+  },
+  {
+    id: 86,
+    name: "Conjunto deportivo tops mas short corto  Tela Nailon",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "tops",
+    image:
+      "/prendas/ropa-deportiva/tops/ConjuntodeportivotopsmasshortcortoTelaNailon.avif",
+  },
+  {
+    id: 87,
+    name: "Top con sujetador y  cobertura total fácil alta elasticidad Tela Nailon",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "tops",
+    image:
+      "/prendas/ropa-deportiva/tops/TopconsujetadorycoberturatotalfacilaltaelasticidadTelaNailon.avif",
+  },
+  {
+    id: 88,
+    name: "Tops deportivos para mujer con diseño perforado sin mangas transpirables Tela Nailon",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "tops",
+    image:
+      "/prendas/ropa-deportiva/tops/TopsdeportivosparamujercondiseñoperforadosinmangastranspirablesTelaNailon.avif",
+  },
+
+  // Faldas shorts
+
+  {
+    id: 89,
+    name: "Falda corta Deportiva de Cintura Alta con Pliegues y Shorts. Convertible con Bolsillo",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "faldas-shorts",
+    image:
+      "/prendas/ropa-deportiva/falda-short/FaldacortaDeportivadeCinturaAltaconPlieguesyShortsConvertibleconBolsillo.avif",
+  },
+  {
+    id: 90,
+    name: "Falda Deportiva con Rayas y Capa de Seguridad con Short Incorporado. Material poliéster",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "faldas-shorts",
+    image:
+      "/prendas/ropa-deportiva/falda-short/FaldaDeportivaconRayasyCapadeSeguridadconShortIncorporadoMaterialpoliester.avif",
+  },
+  {
+    id: 91,
+    name: "Short de Cintura Alta con Control Abdominal y Tecnología Anti-Rozaduras Bolsillos Laterales, portacelulares Faja Antideslizante Elástica.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "faldas-shorts",
+    image:
+      "/prendas/ropa-deportiva/falda-short/ShortdeCinturaAltaconControlAbdominalyTecnologiaAnti-RozadurasBolsillosLateralesportacelulares.avif",
+  },
+  {
+    id: 92,
+    name: "Short oversize con portacelular interno. Tela poliester.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "sport",
+    subcategory: "faldas-shorts",
+    image:
+      "/prendas/ropa-deportiva/falda-short/ShortoversizeconportacelularinternoTelapoliester.avif",
+  },
 ];
 
 export default products;

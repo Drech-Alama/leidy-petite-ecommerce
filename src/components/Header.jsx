@@ -32,7 +32,7 @@ export default function Header() {
     {
       name: "Deporte",
       slug: "sport",
-      sub: ["Polos", "Pantalones", "Busos", "Tops", "Faldas-Shorts"],
+      sub: ["polos", "pantalones", "buzos", "tops", "faldas-Shorts"],
     },
     {
       name: "Gala",
