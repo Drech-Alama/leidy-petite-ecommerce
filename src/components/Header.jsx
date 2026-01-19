@@ -27,13 +27,7 @@ export default function Header() {
     {
       name: "Formal",
       slug: "formal",
-      sub: [
-        "Vestidos",
-        "Blazers",
-        "Conjuntos Formales",
-        "Blusas",
-        "Pantalones",
-      ],
+      sub: ["vestidos", "blazers", "conjuntos", "blusas", "pantalones"],
     },
     {
       name: "Deporte",

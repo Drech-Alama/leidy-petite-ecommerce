@@ -443,6 +443,349 @@ const products = [
     image:
       "/prendas/ropa-casual/faldas/MinifaldaalacinturaconcierreinvisibleDisenomodernoyeleganteTelaGamuzasintetica.avif",
   },
+
+  //Conjuntos
+  {
+    id: 42,
+    name: "Conjunto de dos piezas corte moderno y femenino Tela fresca y comoda",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-casual/conjuntos/ConjuntodedospiezascortemodermoyfemeninoTelafrescaycomoda.avif",
+  },
+  {
+    id: 43,
+    name: "Conjunto dedos piezas Short falda con blusa manga corta Tela camisero",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-casual/conjuntos/ConjuntodedospiezasShortfaldaconblusamangacortaTelacamisero.avif",
+  },
+  {
+    id: 44,
+    name: "Conjunto elegante Blusa cuello corbata con short clásico Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-casual/conjuntos/ConjuntoeleganteBlusacuellocorbataconshortclasicoTelaPoliester.avif",
+  },
+  {
+    id: 45,
+    name: "Conjunto elegante dedos piezas Top corto y pantalones anchos Tela camisero",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-casual/conjuntos/ConjuntoelegantededospiezasTopcortoypantalonesanchosTelacamisero.avif",
+  },
+  {
+    id: 46,
+    name: "Conjunto Pantalones estilo recto con blusa cortas sin mangas Material Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "casual",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-casual/conjuntos/ConjuntoPantalonestilorectoconblusacortasinmangasMaterialPoliester.avif",
+  },
+
+  // Sección Formal
+  //Vestidos
+  {
+    id: 47,
+    name: "Traje de Falda con Doble Botonadura y Escote en V con Espalda Abierta Tela Saltin",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "vestidos",
+    image:
+      "/prendas/ropa-formal/vestidos/TrajedeFaldaconDobleBotonadurayEscoteenVconEspaldaAbiertaTelaSaltin.avif",
+  },
+  {
+    id: 48,
+    name: "Vestido camisero elegante manga larga, corte en A Tela poliéster.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "vestidos",
+    image:
+      "/prendas/ropa-formal/vestidos/VestidocamiseroelegantemangalargacorteenATelapoliester.avif",
+  },
+  {
+    id: 49,
+    name: "Vestido con cuello V, botones decorativos y basta faldon con ajuste",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "vestidos",
+    image:
+      "/prendas/ropa-formal/vestidos/VestidoconcuelloVbotonesdecorativosybastafaldonconajuste.avif",
+  },
+  {
+    id: 50,
+    name: "Vestido corto con escote Tela poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "vestidos",
+    image:
+      "/prendas/ropa-formal/vestidos/VestidocortoconescoteTelapoliester.avif",
+  },
+  {
+    id: 51,
+    name: "Vestido elegante con rayas y abertura Tela Fantasia",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "vestidos",
+    image:
+      "/prendas/ropa-formal/vestidos/VestidoeleganteconrayasyaberturaTelaFantasia.avif",
+  },
+
+  // Blazers
+  {
+    id: 52,
+    name: "Abrigo Largo Elegante y Clásico con Cinturón Blazer de Manga Larga y Color Sólido Exterior Versátil Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blazers",
+    image:
+      "/prendas/ropa-formal/blazers/AbrigoLargoEleganteyClasicoconCinturonBlazerdeMangaLargayColorSolidoExteriorVersátilTelaPoliester.avif",
+  },
+  {
+    id: 53,
+    name: "Chaqueta Blazer de Moda Elegante de Solapa de Color Sólido Casual y Versátil. Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blazers",
+    image:
+      "/prendas/ropa-formal/blazers/ChaquetaBlazerdeModaElegantedeSolapadeColorSólidoCasualyVersatilTelaPoliester.avif",
+  },
+  {
+    id: 54,
+    name: "Nuevo Estilo Gyaru y Cute de Primavera y Otoño, Esenciales para Citas, Trajes para Ir al Trabajo, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar, Diseño de",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blazers",
+    image:
+      "/prendas/ropa-formal/blazers/NuevoEstiloGyaruyCutedePrimaverayOtoñoEsencialesparaCitasTrajesparaIralTrabajoMinimalismodeColorSolido.avif",
+  },
+  {
+    id: 55,
+    name: "Saco elegante con cuello fruncido, manga 34, abierto al frente, unicolor. Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blazers",
+    image:
+      "/prendas/ropa-formal/blazers/Sacoeleganteconcuellofruncidomanga34abiertoalfrenteunicolorTelaPoliester.avif",
+  },
+  {
+    id: 56,
+    name: "Un blazer ultra corto elegante y único Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blazers",
+    image:
+      "/prendas/ropa-formal/blazers/UnblazerultracortoeleganteyunicoTelaPoliester.avif",
+  },
+
+  // Conjuntos
+  {
+    id: 57,
+    name: "Conjunto de dos piezas Top sin Mangas y Pantalón de Color Sólido con rayas blancas Atuendo Completo Tela tafeta",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-formal/conjuntos/ConjuntodedospiezasTopsinMangasyPantalondeColorSolidoconrayasblancasAtuendoCompletoTelatafeta.avif",
+  },
+  {
+    id: 58,
+    name: "Conjunto de top sin mangas y pantalones de cintura alta  diseño franjas blancas Tela popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-formal/conjuntos/ConjuntodetopsinmangasypantalonesdecinturaaltadiseñofranjasblancasTelapopelina.avif",
+  },
+  {
+    id: 59,
+    name: "Conjunto Elegante de dos piezas  blusa de manga burbuja con botones y pantalones de vestir Tela popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-formal/conjuntos/ConjuntoElegantededospiezasblusademangaburbujaconbotonesypantalonesdevestirTelapopelina.avif",
+  },
+  {
+    id: 60,
+    name: "Conjunto Elegante y Cómodo Chaleco top sin mangas y pantalón palazo con pinzas delanteras. Tela popelina.",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-formal/conjuntos/ConjuntoEleganteyComodoChalecotopsinmangasypantalonpalazoconpinzasdelanterasTelapopelina.avif",
+  },
+  {
+    id: 61,
+    name: "Conjunto Elegante y Cómodo Traje a Rayas con Hombros Descubiertos y Cintura Ajustada Cuello Asimétrico Detalles de Botones",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "conjuntos",
+    image:
+      "/prendas/ropa-formal/conjuntos/ConjuntoEleganteyComodoTrajeaRayasconHombrosDescubiertosyCinturaAjustadaCuelloAsimetricoDetallesdeBotones.avif",
+  },
+
+  //Blusas
+  {
+    id: 62,
+    name: "Blusa elegante con panel de malla mangas con volantes y moño semitransparente Tela Chifón",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-formal/blusas/BlusaeleganteconpaneldemallamangasconvolantesymonosemitransparenteTelaChifon.avif",
+  },
+  {
+    id: 63,
+    name: "Blusa elegante de manga corta y parte delantera corrugada con botones ocultos Tela Popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-formal/blusas/BlusaelegantedemangacortaypartedelanteracorrugadaconbotonesocultosTelaPopelina.avif",
+  },
+  {
+    id: 64,
+    name: "Blusa para mujer estilo francés con mangas murciélago y cuello redondo con cinturón color sólido. Tela Poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-formal/blusas/BlusaparamujerestilofrancesconmangasmurcielagoycuelloredondoconcinturoncolorsolidoTelaPoliester.avif",
+  },
+  {
+    id: 65,
+    name: "Camisa de manga larga para mujer estilo francés color liso con abotonadura oculta Tela poliéster",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-formal/blusas/CamisademangalargaparamujerestilofrancescolorlisoconabotonaduraocultaTelapoliester.avif",
+  },
+  {
+    id: 66,
+    name: "Camiseta de cuello en V carrugado Tela Popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "blusas",
+    image:
+      "/prendas/ropa-formal/blusas/CamisetadecuelloenVcarrugadoTelaPopelina.avif",
+  },
+
+  // Pantalones
+  {
+    id: 67,
+    name: "Pantalón de cintura alta y pierna Ancha con doble abertura en el dobladillo largo por encima de la rodilla mas cinturón ajustable Tela poliester",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-formal/pantalones/PantaldelongitudcroppedpiernaanchahechosdetelasuaveycomodaEldisenodecinturaaltacuentaconunrespaldo.avif",
+  },
+  {
+    id: 68,
+    name: "Pantalón de longitud cropped pierna ancha hechos de tela suave y cómoda El diseño de cintura alta cuenta con un respaldo elástico para una gran flexibilidad Tela Popelina",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-formal/pantalones/PantalondecinturaaltaypiernaAnchacondobleaberturaeneldobladillolargoporencimadelarodillamascinturonajustableTelapoliester.avif",
+  },
+  {
+    id: 69,
+    name: "Pantalón elegante de pierna ancha y pinzas sin necesidad de cinturón  con textura suave y ajuste cómodo Tela Drill",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-formal/pantalones/PantalonelegantedepiernaanchaypinzassinnecesidaddecinturoncontexturasuaveyajustecomodoTelaDrill.avif",
+  },
+  {
+    id: 70,
+    name: "Pantalón formal de talle alto Corte holgado largo cierre de bragueta con botones detalles de bolsillos sin cinturón Tela Drill",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-formal/pantalones/PantalonformaldetallealtoCorteholgadolargocierredebraguetaconbotonesdetallesdebolsillossincinturonTelaDrill.avif",
+  },
+  {
+    id: 71,
+    name: "Pantalon palazo a la cintura con pinzas delanteras Tela Corduroy",
+    size: ["XS-C", "S-C", "M-C", "L-C"],
+    colors: ["Negro", "Rojo"],
+    price: 119,
+    category: "formal",
+    subcategory: "pantalones",
+    image:
+      "/prendas/ropa-formal/pantalones/PantalonpalazoalacinturaconpinzasdelanterasTelaCorduroy.avif",
+  },
 ];
 
 export default products;
