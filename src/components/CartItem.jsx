@@ -14,7 +14,7 @@ export default function CartItem({ item }) {
     Marrón: "bg-amber-800",
     Plateado: "bg-gray-300",
     Plomo: "bg-gray-500",
-    Arena: "bg-amber-200",
+    Arena: "bg-orange-100",
     Beige: "bg-neutral-400",
     Camell: "bg-yellow-800",
     Rosado: "bg-rose-400",
