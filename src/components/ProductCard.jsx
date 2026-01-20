@@ -33,7 +33,7 @@ export default function ProductCard({ product }) {
       <img
         src={product.image}
         alt={product.name}
-        className="h-64 w-full object-cover mb-3 rounded"
+        className="h-80 w-full object-cover mb-3 rounded"
       />
 
       {/* INFO */}
