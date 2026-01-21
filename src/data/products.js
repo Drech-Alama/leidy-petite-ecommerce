@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Polo Manga Corta Tela Poliester",
+    name: "Polo Manga Corta Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Plomo", "Rojo"],
     price: 35,
@@ -390,7 +390,7 @@ const products = [
   // Faldas
   {
     id: 37,
-    name: "Falda Casual Estilo Cargo con Detalle de Botones. Diseño Versátil con aberturas Tela Poliester",
+    name: "Falda Casual Estilo Cargo con Detalle de Botones. Diseño Versátil con aberturas Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Negro", "Blanco"],
     price: 129,
@@ -469,7 +469,7 @@ const products = [
   },
   {
     id: 44,
-    name: "Conjunto Elegante Blusa Cuello Corbata con Short Clásico Tela Poliester",
+    name: "Conjunto Elegante Blusa Cuello Corbata con Short Clásico Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Azul", "Gris"],
     price: 169,
@@ -505,7 +505,7 @@ const products = [
   //Vestidos
   {
     id: 47,
-    name: "Traje de Falda con Doble Botonadura y Escote en V con Espalda Abierta Tela Saltin",
+    name: "Traje de Falda con Doble Botonadura y Escote en V con Espalda Abierta Tela satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Negro", "Arena"],
     price: 119,
@@ -516,7 +516,7 @@ const products = [
   },
   {
     id: 48,
-    name: "Vestido Camisero Elegante Manga Larga, Corte en A Tela Poliester.",
+    name: "Vestido Camisero Elegante Manga Larga, Corte en A Tela Poliéster.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Marrón", "Negro"],
     price: 119,
@@ -538,7 +538,7 @@ const products = [
   },
   {
     id: 50,
-    name: "Vestido Corto con Escote Tela Poliester",
+    name: "Vestido Corto con Escote Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Rojo", "Marrón"],
     price: 119,
@@ -562,7 +562,7 @@ const products = [
   // Blazers
   {
     id: 52,
-    name: "Abrigo Largo Elegante y Clásico con Cinturón Blazer de Manga Larga y Color Sólido Exterior Versátil Tela Poliester",
+    name: "Abrigo Largo Elegante y Clásico con Cinturón Blazer de Manga Larga y Color Sólido Exterior Versátil Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Camell", "Negro"],
     price: 170,
@@ -573,7 +573,7 @@ const products = [
   },
   {
     id: 53,
-    name: "Chaqueta Blazer de Moda Elegante de Solapa de Color Sólido Casual y Versátil. Tela Poliester",
+    name: "Chaqueta Blazer de Moda Elegante de Solapa de Color Sólido Casual y Versátil. Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Rojo", "Beige"],
     price: 159,
@@ -595,7 +595,7 @@ const products = [
   },
   {
     id: 55,
-    name: "Saco Elegante con Cuello Fruncido, Manga 34, Abierto al Frente, Unicolor. Tela Poliester",
+    name: "Saco Elegante con Cuello Fruncido, Manga 34, Abierto al Frente, Unicolor. Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Azul", "Negro"],
     price: 160,
@@ -606,7 +606,7 @@ const products = [
   },
   {
     id: 56,
-    name: "Un Blazer Ultra Corto Elegante y Único Tela Poliester",
+    name: "Un Blazer Ultra Corto Elegante y Único Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Beige", "Negro"],
     price: 150,
@@ -699,7 +699,7 @@ const products = [
   },
   {
     id: 64,
-    name: "Blusa para Mujer Estilo Francés con Mangas Murciélago y Cuello Redondo con Cinturón Color Sólido. Tela Poliester",
+    name: "Blusa para Mujer Estilo Francés con Mangas Murciélago y Cuello Redondo con Cinturón Color Sólido. Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Camell", "Negro"],
 
@@ -826,7 +826,7 @@ const products = [
   },
   {
     id: 75,
-    name: "Camiseta Oversize con Manga Corta Tela Poliester",
+    name: "Camiseta Oversize con Manga Corta Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Gris", "Azul", "Marrón"],
     price: 40,
@@ -1037,7 +1037,7 @@ const products = [
 
   {
     id: 93,
-    name: "Elegante Vestido de Noche con Abertura, Nudo Torcido y Tirantes Cruzados Espalda descubierta Tela Saltin",
+    name: "Elegante Vestido de Noche con Abertura, Nudo Torcido y Tirantes Cruzados Espalda descubierta Tela satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Verde", "Rojo", "Blanco", "Negro"],
     price: 189,
@@ -1048,7 +1048,7 @@ const products = [
   },
   {
     id: 94,
-    name: "Elegante Vestido de Sirena de Color Sólido con Hombros Descubiertos, con Abertura Alta y Dobladillo Asimétrico Tela saltin",
+    name: "Elegante Vestido de Sirena de Color Sólido con Hombros Descubiertos, con Abertura Alta y Dobladillo Asimétrico Tela satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Arena", "Marrón", "Negro"],
     price: 199,
@@ -1059,7 +1059,7 @@ const products = [
   },
   {
     id: 95,
-    name: "Elegante Vestido Largo sin Mangas con Cuello Halter y Espalda Descubierta Tela Saltin",
+    name: "Elegante Vestido Largo sin Mangas con Cuello Halter y Espalda Descubierta Tela satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Azul", "Blanco", "Negro"],
     price: 199,
@@ -1081,7 +1081,7 @@ const products = [
   },
   {
     id: 97,
-    name: "Vestido Largo sin Mangas con Cortes en una Pierna Tela Saltin",
+    name: "Vestido Largo sin Mangas con Cortes en una Pierna Tela satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Rojo", "Plomo"],
     price: 179,
