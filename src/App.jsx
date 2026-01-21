@@ -7,6 +7,7 @@ import Shop from "./pages/Shop";
 import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
 import ButtonWhatsapp from "./components/ButtonWhatsApp";
+import ButtonLandingLeidyPetite from "./components/ButtonLandingLeidyPetite";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </div>
       <Footer />
       <ButtonWhatsapp />
+      <ButtonLandingLeidyPetite />
     </CartProvider>
   );
 }
