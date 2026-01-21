@@ -584,7 +584,7 @@ const products = [
   },
   {
     id: 54,
-    name: "Nuevo Estilo Gyaru, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar. Tela Satin",
+    name: "Nuevo Estilo Gyaru, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar. Tela Satín",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Camell", "Negro"],
     price: 199,
