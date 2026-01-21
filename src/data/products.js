@@ -505,7 +505,7 @@ const products = [
   //Vestidos
   {
     id: 47,
-    name: "Traje de Falda con Doble Botonadura y Escote en V con Espalda Abierta Tela satín",
+    name: "Traje de Falda con Doble Botonadura y Escote en V con Espalda Abierta Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Negro", "Arena"],
     price: 119,
@@ -584,7 +584,7 @@ const products = [
   },
   {
     id: 54,
-    name: "Nuevo Estilo Gyaru, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar. Tela Satín",
+    name: "Nuevo Estilo Gyaru, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar. Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Camell", "Negro"],
     price: 199,
@@ -1037,7 +1037,7 @@ const products = [
 
   {
     id: 93,
-    name: "Elegante Vestido de Noche con Abertura, Nudo Torcido y Tirantes Cruzados Espalda descubierta Tela satín",
+    name: "Elegante Vestido de Noche con Abertura, Nudo Torcido y Tirantes Cruzados Espalda descubierta Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Verde", "Rojo", "Blanco", "Negro"],
     price: 189,
@@ -1048,7 +1048,7 @@ const products = [
   },
   {
     id: 94,
-    name: "Elegante Vestido de Sirena de Color Sólido con Hombros Descubiertos, con Abertura Alta y Dobladillo Asimétrico Tela satín",
+    name: "Elegante Vestido de Sirena de Color Sólido con Hombros Descubiertos, con Abertura Alta y Dobladillo Asimétrico Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Arena", "Marrón", "Negro"],
     price: 199,
@@ -1059,7 +1059,7 @@ const products = [
   },
   {
     id: 95,
-    name: "Elegante Vestido Largo sin Mangas con Cuello Halter y Espalda Descubierta Tela satín",
+    name: "Elegante Vestido Largo sin Mangas con Cuello Halter y Espalda Descubierta Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Azul", "Blanco", "Negro"],
     price: 199,
@@ -1081,7 +1081,7 @@ const products = [
   },
   {
     id: 97,
-    name: "Vestido Largo sin Mangas con Cortes en una Pierna Tela satín",
+    name: "Vestido Largo sin Mangas con Cortes en una Pierna Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Rojo", "Plomo"],
     price: 179,
