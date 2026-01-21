@@ -15,9 +15,9 @@ export default function Checkout() {
           `${p.name}
 • Color: ${p.selectedColor || "-"}
 • Cantidad: ${p.quantity}
-• Precio: S/ ${p.price}`
+• Precio: S/ ${p.price}`,
       )
-      .join("\n\n") + `\n\nTotal: S/ ${getTotal()}`
+      .join("\n\n") + `\n\nTotal: S/ ${getTotal()}`,
   );
 
   const handleEnviarPago = () => {
@@ -169,7 +169,7 @@ export default function Checkout() {
         rel="noopener noreferrer"
         className="bg-green-600 text-white p-4 block rounded"
       >
-        Enviar comprobante por WhatsApp
+        Enviar carrito de compras y comprobante por WhatsApp
       </a>
 
       {/* MODAL */}

@@ -80,7 +80,7 @@ export default function ProductCard({ product }) {
               selectedColor,
             })
           }
-          className="mt-4 w-full bg-[var(--color-medio)] text-white font-bold py-2 rounded"
+          className="mt-4 w-full bg-[var(--color-medio)] text-white font-bold py-2 rounded cursor-pointer"
         >
           🛒 Agregar al carrito
         </button>
