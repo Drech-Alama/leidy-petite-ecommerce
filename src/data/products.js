@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Polo Corto Mangalarga",
+    name: "Polo Corto Manga Larga",
     size: ["XS-C", "S-C", "M-C"],
     colors: ["Rojo", "Gris", "Marrón"],
     price: 60,
@@ -23,7 +23,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Falda Manga Corta",
+    name: "Polo Manga Corta",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Verde", "Blanco"],
     price: 48,
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Pantalón Denim Estilo Skini",
+    name: "Pantalón Denim Estilo Skinny",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Negro", "Gris"],
     price: 145,
@@ -84,7 +84,7 @@ const products = [
   },
   {
     id: 9,
-    name: "Pantalón Denim Estilo Straing",
+    name: "Pantalón Denim Estilo Straight",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Negro", "Plomo"],
     price: 159,
@@ -115,7 +115,7 @@ const products = [
   },
   {
     id: 12,
-    name: "Mini Falda Con Cortes Tela Corduroy",
+    name: "Mini Falda con Cortes Tela Corduroy",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Beige", "Blanco"],
     price: 135,
@@ -145,7 +145,7 @@ const products = [
   },
   {
     id: 15,
-    name: "Falda shorts tela denim",
+    name: "Falda Shorts Tela Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Plomo", "Negro"],
     price: 149,
@@ -157,7 +157,7 @@ const products = [
   // Chalecos, chompas y abrigos
   {
     id: 16,
-    name: "Casaca con capucha a la cintura Tela denim con franela",
+    name: "Casaca con Capucha a la Cintura Tela Denim con Franela",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Negro", "Celeste"],
     price: 159,
@@ -168,7 +168,7 @@ const products = [
   },
   {
     id: 17,
-    name: "Chaleco Denim cuello V",
+    name: "Chaleco Denim Cuello V",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Celeste"],
     price: 140,
@@ -179,7 +179,7 @@ const products = [
   },
   {
     id: 18,
-    name: "Chompa cuello redondo Tela-Algodón",
+    name: "Chompa Cuello Redondo Tela-Algodón",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Beige", "Negro"],
     price: 120,
@@ -190,7 +190,7 @@ const products = [
   },
   {
     id: 19,
-    name: "Chompa de hilo cuello V",
+    name: "Chompa de Hilo Cuello V",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Beige", "Gris"],
     price: 139,
@@ -201,7 +201,7 @@ const products = [
   },
   {
     id: 20,
-    name: "Chompa Overzise concapucha Tela-Algodón",
+    name: "Chompa Overzise con Capucha Tela-Algodón",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Rojo", "Negro", "Beige"],
     price: 140,
@@ -224,7 +224,7 @@ const products = [
   // Shorts
   {
     id: 22,
-    name: "Short bermuda Tela-Denim",
+    name: "Short Bermuda Tela-Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Negro", "Gris", "Celeste"],
     price: 109,
@@ -234,7 +234,7 @@ const products = [
   },
   {
     id: 23,
-    name: "Short cargo cintura Tela Denim",
+    name: "Short Cargo Cintura Tela Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Azul", "Plomo", "Gris"],
     price: 99,
@@ -244,7 +244,7 @@ const products = [
   },
   {
     id: 24,
-    name: "Short Clásico cintura Tela Denim",
+    name: "Short Clásico Cintura Tela Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Azul"],
     price: 90,
@@ -254,7 +254,7 @@ const products = [
   },
   {
     id: 25,
-    name: "Shortcorto vaquero Tela Denim",
+    name: "Short Corto Vaquero Tela Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Azul", "Negro"],
     price: 80,
@@ -264,7 +264,7 @@ const products = [
   },
   {
     id: 26,
-    name: "Short Falda a la cintura Tela Denim",
+    name: "Short Falda a la Cintura Tela Denim",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Negro", "Azul"],
     price: 120,
@@ -277,7 +277,7 @@ const products = [
   // Blusas
   {
     id: 27,
-    name: "Blusa ajustada Mangalarga Tela-Poliester",
+    name: "Blusa Ajustada Manga Larga Tela-Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Rojo", "Azul", "Marrón"],
     price: 120,
@@ -288,7 +288,7 @@ const products = [
   },
   {
     id: 28,
-    name: "Blusa manga corta conrayas Tela Chalis",
+    name: "Blusa Manga Corta con Rayas Tela Chalis",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Beige"],
     price: 110,
@@ -298,7 +298,7 @@ const products = [
   },
   {
     id: 29,
-    name: "Blusa manga Estilo corto Tela-Camisero",
+    name: "Blusa con Manga. Estilo Corto Tela-Camisero",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Celeste", "Plomo"],
     price: 119,
@@ -309,7 +309,7 @@ const products = [
   },
   {
     id: 30,
-    name: "Blusa manga larga Estilo corto Tela-Popelina",
+    name: "Blusa Manga Larga Estilo Corto Tela-Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Rojo", "Blanco"],
     price: 100,
@@ -320,7 +320,7 @@ const products = [
   },
   {
     id: 31,
-    name: "Blusa mangalarga oversize Tela-Poliester",
+    name: "Blusa Manga Larga Oversize Tela-Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Arena", "Negro"],
     price: 129,
@@ -333,7 +333,7 @@ const products = [
   //Pantalones
   {
     id: 32,
-    name: "Pantalon a la cintura con bolsillos delanteros y basta ajustable Estilo wide leg Tela Drill",
+    name: "Pantalon a la Cintura con Bolsillos Delanteros y Basta Ajustable Estilo Wide Leg Tela Drill",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Negro", "Marrón"],
     price: 130,
@@ -344,7 +344,7 @@ const products = [
   },
   {
     id: 33,
-    name: "Pantalon cargo semicadera Tela Tafeta",
+    name: "Pantalon Cargo Semicadera Tela Tafeta",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Beige", "Marrón"],
     price: 125,
@@ -355,7 +355,7 @@ const products = [
   },
   {
     id: 34,
-    name: "Pantalon oversize con ajuste de largo de pierna Tela popelina",
+    name: "Pantalon Oversize con Ajuste de Largo de Pierna Tela Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Beige", "Marrón"],
     price: 120,
@@ -366,7 +366,7 @@ const products = [
   },
   {
     id: 35,
-    name: "Pantalon palazo a la cintura Basta con ajustes Tela Corduroy",
+    name: "Pantalon Palazo a la Cintura Basta con Ajustes Tela Corduroy",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Negro", "Marrón"],
     price: 149,
@@ -377,7 +377,7 @@ const products = [
   },
   {
     id: 36,
-    name: "Pantalon versatil y comodo Estilo recto Tela Rayon",
+    name: "Pantalon Versatil y Cómodo Estilo Recto Tela Rayon",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Beige", "Azul"],
     price: 135,
@@ -390,7 +390,7 @@ const products = [
   // Faldas
   {
     id: 37,
-    name: "Falda casual estilo cargo con detalle de botones. Diseño versatil con aberturas Tela Poliester",
+    name: "Falda Casual Estilo Cargo con Detalle de Botones. Diseño Versátil con aberturas Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Negro", "Blanco"],
     price: 129,
@@ -401,7 +401,7 @@ const products = [
   },
   {
     id: 38,
-    name: "Falda corta de cuero Cintura alta y ajustada",
+    name: "Falda Corta de Cuero Cintura Alta y Ajustada",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Negro"],
     price: 110,
@@ -412,7 +412,7 @@ const products = [
   },
   {
     id: 39,
-    name: "Falda pomposa de cintura alta Tela Tafeta",
+    name: "Falda Pomposa de Cintura Alta Tela Tafeta",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Beige", "Marrón"],
     price: 140,
@@ -434,7 +434,7 @@ const products = [
   },
   {
     id: 41,
-    name: "Mini falda a la cintura con cierre invisible Diseño moderno y elegante Tela Gamuza sintética",
+    name: "Mini Falda a la Cintura con Cierre Invisible Diseño Moderno y Elegante Tela Gamuza Sintética",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Beige", "Camell", "Marrón"],
     price: 119,
@@ -447,7 +447,7 @@ const products = [
   //Conjuntos
   {
     id: 42,
-    name: "Conjunto de dos piezas corte moderno y femenino Tela fresca y comoda",
+    name: "Conjunto de Dos Piezas Corte Moderno y Femenino Tela Fresca y Cómoda",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Rojo", "Camell"],
     price: 139,
@@ -458,7 +458,7 @@ const products = [
   },
   {
     id: 43,
-    name: "Conjunto dedos piezas Short falda con blusa manga corta Tela camisero",
+    name: "Conjunto De dos Piezas Short Falda con Blusa Manga Corta Tela Camisero",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Beige", "Negro"],
     price: 149,
@@ -469,7 +469,7 @@ const products = [
   },
   {
     id: 44,
-    name: "Conjunto elegante Blusa cuello corbata con short clásico Tela Poliester",
+    name: "Conjunto Elegante Blusa Cuello Corbata con Short Clásico Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Azul", "Gris"],
     price: 169,
@@ -480,7 +480,7 @@ const products = [
   },
   {
     id: 45,
-    name: "Conjunto elegante dedos piezas Top corto y pantalones anchos Tela camisero",
+    name: "Conjunto Elegante De dos Piezas. Top Corto y Pantalones Anchos Tela Camisero",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Marrón", "Negro"],
     price: 150,
@@ -491,7 +491,7 @@ const products = [
   },
   {
     id: 46,
-    name: "Conjunto Pantalones estilo recto con blusa cortas sin mangas Material Poliester",
+    name: "Conjunto Pantalones Estilo Recto con Blusa Cortas sin Mangas Material Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Verde", "Marrón", "Beige"],
     price: 169,
@@ -516,7 +516,7 @@ const products = [
   },
   {
     id: 48,
-    name: "Vestido camisero elegante manga larga, corte en A Tela poliéster.",
+    name: "Vestido Camisero Elegante Manga Larga, Corte en A Tela Poliester.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Marrón", "Negro"],
     price: 119,
@@ -527,7 +527,7 @@ const products = [
   },
   {
     id: 49,
-    name: "Vestido con cuello V, botones decorativos y basta faldon con ajuste",
+    name: "Vestido con Cuello V, Botones Decorativos y Basta Faldón con Ajuste",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Rojo", "Azul"],
     price: 119,
@@ -538,7 +538,7 @@ const products = [
   },
   {
     id: 50,
-    name: "Vestido corto con escote Tela poliester",
+    name: "Vestido Corto con Escote Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Rojo", "Marrón"],
     price: 119,
@@ -549,7 +549,7 @@ const products = [
   },
   {
     id: 51,
-    name: "Vestido elegante con rayas y abertura Tela Fantasia",
+    name: "Vestido Elegante con Rayas y Abertura Tela Fantasía",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Negro"],
     price: 119,
@@ -584,7 +584,7 @@ const products = [
   },
   {
     id: 54,
-    name: "Nuevo Estilo Gyaru y Cute de Primavera y Otoño, Esenciales para Citas, Trajes para Ir al Trabajo, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar, Diseño de",
+    name: "Nuevo Estilo Gyaru, Minimalismo de Color Sólido, Versatilidad a la Moda, Tres Formas de Usar. Tela Satin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Camell", "Negro"],
     price: 199,
@@ -595,7 +595,7 @@ const products = [
   },
   {
     id: 55,
-    name: "Saco elegante con cuello fruncido, manga 34, abierto al frente, unicolor. Tela Poliester",
+    name: "Saco Elegante con Cuello Fruncido, Manga 34, Abierto al Frente, Unicolor. Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Azul", "Negro"],
     price: 160,
@@ -606,7 +606,7 @@ const products = [
   },
   {
     id: 56,
-    name: "Un blazer ultra corto elegante y único Tela Poliester",
+    name: "Un Blazer Ultra Corto Elegante y Único Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Beige", "Negro"],
     price: 150,
@@ -619,7 +619,7 @@ const products = [
   // Conjuntos
   {
     id: 57,
-    name: "Conjunto de dos piezas Top sin Mangas y Pantalón de Color Sólido con rayas blancas Atuendo Completo Tela tafeta",
+    name: "Conjunto de Dos Piezas Top sin Mangas y Pantalón de Color Sólido con Rayas Blancas, Atuendo Completo Tela tafeta",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Negro", "Rojo"],
     price: 169,
@@ -630,7 +630,7 @@ const products = [
   },
   {
     id: 58,
-    name: "Conjunto de top sin mangas y pantalones de cintura alta  diseño franjas blancas Tela popelina",
+    name: "Conjunto de Top sin Mangas y Pantalones de Cintura Alta Diseño Franjas Blancas Tela Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Marrón", "Rosado"],
     price: 175,
@@ -641,7 +641,7 @@ const products = [
   },
   {
     id: 59,
-    name: "Conjunto Elegante de dos piezas  blusa de manga burbuja con botones y pantalones de vestir Tela popelina",
+    name: "Conjunto Elegante de Dos piezas Blusa de Manga Burbuja con Botones y Pantalones de Vestir Tela Popelina y Pantalón",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Blanco", "Marrón"],
     price: 180,
@@ -652,7 +652,7 @@ const products = [
   },
   {
     id: 60,
-    name: "Conjunto Elegante y Cómodo Chaleco top sin mangas y pantalón palazo con pinzas delanteras. Tela popelina.",
+    name: "Conjunto Elegante y Cómodo Chaleco Top sin Mangas y Pantalón Palazo con Pinzas Delanteras. Tela Popelina.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Camell", "Marrón"],
     price: 160,
@@ -663,7 +663,7 @@ const products = [
   },
   {
     id: 61,
-    name: "Conjunto Elegante y Cómodo Traje a Rayas con Hombros Descubiertos y Cintura Ajustada Cuello Asimétrico Detalles de Botones",
+    name: "Conjunto Elegante y Cómodo. Traje a Rayas con Hombros Descubiertos y Cintura Ajustada Cuello Asimétrico Detalles de Botones",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Camell", "Arena"],
     price: 160,
@@ -676,7 +676,7 @@ const products = [
   //Blusas
   {
     id: 62,
-    name: "Blusa elegante con panel de malla mangas con volantes y moño semitransparente Tela Chifón",
+    name: "Blusa Elegante con Panel de Malla Mangas con Volantes y Moño Semitransparente Tela Chifón",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Azul", "Blanco"],
     price: 129,
@@ -687,7 +687,7 @@ const products = [
   },
   {
     id: 63,
-    name: "Blusa elegante de manga corta y parte delantera corrugada con botones ocultos Tela Popelina",
+    name: "Blusa Elegante de Manga Corta y Parte Delantera Corrugada con Botones Ocultos Tela Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Blanco", "Verde"],
 
@@ -699,7 +699,7 @@ const products = [
   },
   {
     id: 64,
-    name: "Blusa para mujer estilo francés con mangas murciélago y cuello redondo con cinturón color sólido. Tela Poliester",
+    name: "Blusa para Mujer Estilo Francés con Mangas Murciélago y Cuello Redondo con Cinturón Color Sólido. Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Camell", "Negro"],
 
@@ -711,7 +711,7 @@ const products = [
   },
   {
     id: 65,
-    name: "Camisa de manga larga para mujer estilo francés color liso con abotonadura oculta Tela poliéster",
+    name: "Camisa Manga Larga. Estilo Francés Color Liso con Botonera Oculta. Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Rojo", "Negro"],
     price: 110,
@@ -722,7 +722,7 @@ const products = [
   },
   {
     id: 66,
-    name: "Camiseta de cuello en V carrugado Tela Popelina",
+    name: "Camiseta de Cuello en V Carrugado Tela Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Beige", "Negro"],
     price: 135,
@@ -735,7 +735,7 @@ const products = [
   // Pantalones
   {
     id: 67,
-    name: "Pantalón de cintura alta y pierna Ancha con doble abertura en el dobladillo largo por encima de la rodilla mas cinturón ajustable Tela poliester",
+    name: "Pantalón de Cintura Alta y Pierna Ancha con Doble Abertura en el Dobladillo Largo por Encima de la Rodilla más Cinturón Ajustable Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Marrón", "Negro"],
     price: 160,
@@ -746,7 +746,7 @@ const products = [
   },
   {
     id: 68,
-    name: "Pantalón de longitud cropped pierna ancha hechos de tela suave y cómoda El diseño de cintura alta cuenta con un respaldo elástico para una gran flexibilidad Tela Popelina",
+    name: "Pantalón de Longitud Cropped Pierna Ancha Hechos de Tela Suave y Cómoda. El Diseño de Cintura Alta Cuenta con un Respaldo Elástico para una Gran Flexibilidad Tela Popelina",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Negro", "Plomo"],
     price: 150,
@@ -757,7 +757,7 @@ const products = [
   },
   {
     id: 69,
-    name: "Pantalón elegante de pierna ancha y pinzas sin necesidad de cinturón  con textura suave y ajuste cómodo Tela Drill",
+    name: "Pantalón Elegante de Pierna Ancha y Pinzas sin Necesidad de Cinturón con Textura Suave y Ajuste Cómodo Tela Drill",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Gris", "Blanco"],
     price: 149,
@@ -768,7 +768,7 @@ const products = [
   },
   {
     id: 70,
-    name: "Pantalón formal de talle alto Corte holgado largo cierre de bragueta con botones detalles de bolsillos sin cinturón Tela Drill",
+    name: "Pantalón Formal de Talle Alto Corte Holgado Largo Cierre de Bragueta con Botones Detalles de Bolsillos sin Cinturón Tela Drill",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Camell", "Negro"],
     price: 130,
@@ -779,7 +779,7 @@ const products = [
   },
   {
     id: 71,
-    name: "Pantalon palazo a la cintura con pinzas delanteras Tela Corduroy",
+    name: "Pantalon Palazo a la Cintura con Pinzas Delanteras Tela Corduroy",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Arena", "Negro"],
     price: 129,
@@ -793,7 +793,7 @@ const products = [
   // Polos
   {
     id: 72,
-    name: "Camiseta cropped que deja al descubierto el ombligo, diseñado con cuello redondo y mangas cortas. Tela Poliéster",
+    name: "Camiseta Cropped que Deja al Descubierto el Ombligo, Diseñado con Cuello Redondo y Mangas Cortas. Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Rosado", "Negro"],
     price: 49,
@@ -804,7 +804,7 @@ const products = [
   },
   {
     id: 73,
-    name: "Camiseta de manga corta color sólido con hombro inclinado Material Poliéster",
+    name: "Camiseta de Manga Corta Color Sólido con Hombro Inclinado Material Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Azul", "Negro"],
     price: 40,
@@ -826,7 +826,7 @@ const products = [
   },
   {
     id: 75,
-    name: "Camiseta Oversize  con manga corta Tela Poliester",
+    name: "Camiseta Oversize con Manga Corta Tela Poliester",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Gris", "Azul", "Marrón"],
     price: 40,
@@ -837,7 +837,7 @@ const products = [
   },
   {
     id: 76,
-    name: "Camisetas Deportivas Sin Mangas Tejido Transpirable y Elástico Diseño con Abertura Lateral Cuello Redondo y Corte H para Gimnasio",
+    name: "Camisetas Deportivas sin Mangas Tejido Transpirable y Elástico Diseño con Abertura Lateral Cuello Redondo y Corte H para Gimnasio",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Blanco", "Beige", "Negro"],
     price: 35,
@@ -850,7 +850,7 @@ const products = [
   // Pantalones
   {
     id: 77,
-    name: "Conjunto de pantalon recto y polo manga corta. Tela Poliester.",
+    name: "Conjunto de Pantalon Recto y Polo Manga Corta. Tela Poliéster.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Verde", "Plomo", "Negro"],
     price: 140,
@@ -861,7 +861,7 @@ const products = [
   },
   {
     id: 78,
-    name: "Leggins de cintura alta ajustado. Tela Nailon.",
+    name: "Leggins de Cintura Alta Ajustado. Tela Nailon.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Gris", "Azul", "Negro"],
     price: 120,
@@ -872,7 +872,7 @@ const products = [
   },
   {
     id: 79,
-    name: "Pantalón de pierna ancha con drapeado completo cordón ajustable y bolsillos Tela viscosa",
+    name: "Pantalón de Pierna Ancha con Drapeado Completo Cordón Ajustable y Bolsillos Tela Viscosa",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Plomo", "Marrón", "Negro"],
     price: 139,
@@ -883,7 +883,7 @@ const products = [
   },
   {
     id: 80,
-    name: "Pantalón deportivo holgado con un parche de cinturón de color sólido. Tela Poliéster.",
+    name: "Pantalón Deportivo Holgado con un Parche de Cinturón de Color Sólido. Tela Poliéster.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Azul", "Camell"],
     price: 149,
@@ -894,7 +894,7 @@ const products = [
   },
   {
     id: 81,
-    name: "Pantalones cargo color sólido con cintura ajustable y bolsillos grandes ideales para deporte",
+    name: "Pantalones Cargo Color Sólido con Cintura Ajustable y Bolsillos Grandes Ideales para Deporte",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Gris", "Marrón", "Azul"],
     price: 135,
@@ -907,7 +907,7 @@ const products = [
   // Busos
   {
     id: 82,
-    name: "Conjunto deportivo casual holgado de fibra con diseño de letras bordadas Tela Poliester",
+    name: "Conjunto Deportivo Casual Holgado de Fibra con Diseño de Letras Bordadas Tela Poliéster",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Gris", "Plomo"],
     price: 159,
@@ -918,7 +918,7 @@ const products = [
   },
   {
     id: 83,
-    name: "Conjunto deportivo. casaca con cierre y buso con cordon en la pretina para ajustar Tela Licra",
+    name: "Conjunto Deportivo. Casaca con Cierre y Buso con Cordón en la Pretina para Ajustar Tela Licra",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Celeste", "Gris", "Negro"],
     price: 165,
@@ -929,7 +929,7 @@ const products = [
   },
   {
     id: 84,
-    name: "Conjuntos deportivo ajustado Casaca mas leggins Tela licra",
+    name: "Conjuntos Deportivo Ajustado Casaca más Leggins Tela licra",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Marrón", "Gris"],
     price: 170,
@@ -953,7 +953,7 @@ const products = [
   },
   {
     id: 86,
-    name: "Conjunto deportivo tops mas short corto  Tela Nailon",
+    name: "Conjunto Deportivo Tops más Short Corto Tela Nailon",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Gris", "Rojo", "Negro"],
     price: 45,
@@ -964,7 +964,7 @@ const products = [
   },
   {
     id: 87,
-    name: "Top con sujetador y  cobertura total fácil alta elasticidad Tela Nailon",
+    name: "Top con Sujetador y Cobertura Total Fácil Alta Elasticidad Tela Nailon",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Blanco", "Negro"],
     price: 30,
@@ -975,7 +975,7 @@ const products = [
   },
   {
     id: 88,
-    name: "Tops deportivos para mujer con diseño perforado sin mangas transpirables Tela Nailon",
+    name: "Tops Deportivos para Mujer con Diseño Perforado sin Mangas Transpirables Tela Nailon",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Beige", "Negro", "Celeste"],
     price: 49,
@@ -989,7 +989,7 @@ const products = [
 
   {
     id: 89,
-    name: "Falda corta Deportiva de Cintura Alta con Pliegues y Shorts. Convertible con Bolsillo",
+    name: "Falda Corta Deportiva de Cintura Alta con Pliegues y Shorts. Convertible con Bolsillo",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Plateado", "Azul", "Negro"],
     price: 80,
@@ -1011,7 +1011,7 @@ const products = [
   },
   {
     id: 91,
-    name: "Short de Cintura Alta con Control Abdominal y Tecnología Anti-Rozaduras Bolsillos Laterales, portacelulares Faja Antideslizante Elástica.",
+    name: "Short de Cintura Alta con Control Abdominal y Tecnología Anti-Rozaduras Bolsillos Laterales, Portacelulares Faja Antideslizante Elástica.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Plomo", "Blanco"],
     price: 89,
@@ -1022,7 +1022,7 @@ const products = [
   },
   {
     id: 92,
-    name: "Short oversize con portacelular interno. Tela poliester.",
+    name: "Short Oversize con Portacelular Interno. Tela poliéster.",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rosado", "Azul", "Marrón"],
     price: 70,
@@ -1048,7 +1048,7 @@ const products = [
   },
   {
     id: 94,
-    name: "Elegante vestido de sirena de color sólido con hombros descubiertos, con abertura alta y dobladillo asimétrico Tela saltin",
+    name: "Elegante Vestido de Sirena de Color Sólido con Hombros Descubiertos, con Abertura Alta y Dobladillo Asimétrico Tela saltin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Rojo", "Arena", "Marrón", "Negro"],
     price: 199,
@@ -1058,8 +1058,8 @@ const products = [
       "/prendas/gala/vestido-gala/ElegantevestidodesirenadecolorsolidoconhombrosdescubiertosconaberturaaltaydobladilloasimetricoTelasaltin.avif",
   },
   {
-    id: 89,
-    name: "Elegante vestido largo sin mangas con cuello halter y espalda descubierta Tela Saltin",
+    id: 95,
+    name: "Elegante Vestido Largo sin Mangas con Cuello Halter y Espalda Descubierta Tela Saltin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Marrón", "Azul", "Blanco", "Negro"],
     price: 199,
@@ -1070,7 +1070,7 @@ const products = [
   },
   {
     id: 96,
-    name: "Vestido elegante ajustado y corto con mangas largas acampanadas Tela brillante",
+    name: "Vestido Elegante Ajustado y Corto con Mangas Largas Acampanadas Tela Brillante",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Negro", "Rojo", "Blanco", "Azul"],
     price: 169,
@@ -1081,7 +1081,7 @@ const products = [
   },
   {
     id: 97,
-    name: "Vestido largo sin mangas con cortes en una pierna Tela Saltin",
+    name: "Vestido Largo sin Mangas con Cortes en una Pierna Tela Saltin",
     size: ["XS-C", "S-C", "M-C", "L-C"],
     colors: ["Azul", "Rojo", "Plomo"],
     price: 179,
