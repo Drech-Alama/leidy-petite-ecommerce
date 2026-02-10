@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer
@@ -79,6 +80,16 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+
+                  {/* Link legal */}
+<div className="mb-4">
+  <Link
+    to="/terminos"
+    className="text-sm text-black underline underline-offset-4 hover:text-[var(--color-medio)] transition"
+  >
+    Términos y Condiciones
+  </Link>
+</div>
 
         <p className="text-sm text-black">
           © {new Date().getFullYear()} Leidy Petite.

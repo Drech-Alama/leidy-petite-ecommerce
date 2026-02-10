@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
 import ButtonWhatsapp from "./components/ButtonWhatsApp";
 import ButtonLandingLeidyPetite from "./components/ButtonLandingLeidyPetite";
+import TerminosYCondiciones from "./pages/TerminosYCondiciones";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/terminos" element={<TerminosYCondiciones />} />
           </Routes>
         </div>
       </div>
