@@ -297,31 +297,31 @@ Mapa: ${mapa}
 
       {/* FORM TARJETA */}
       {metodo === "tarjeta" && (
-        <div className="space-y-3 text-left border border-[var(--color-medio)] rounded-md p-5">
+        <div className="space-y-3 text-left bg-[var(--color-claro)] border border-[var(--color-medio)] rounded-md p-5">
           <p className="font-medium">Datos de la tarjeta</p>
           <input
             type="text"
             placeholder="Nombre del titular"
-            className="w-full border rounded p-2"
+            className="w-full border rounded p-2 bg-white"
           />
           <input
             type="text"
             placeholder="Número de tarjeta"
             maxLength="19"
-            className="w-full border rounded p-2"
+            className="w-full border rounded p-2 bg-white"
           />
           <div className="flex gap-2">
             <input
               type="text"
               placeholder="MM/AA"
               maxLength="5"
-              className="w-1/2 border rounded p-2"
+              className="w-1/2 border rounded p-2 bg-white"
             />
             <input
               type="password"
               placeholder="CVV"
               maxLength="4"
-              className="w-1/2 border rounded p-2"
+              className="w-1/2 border rounded p-2 bg-white"
             />
           </div>
         </div>

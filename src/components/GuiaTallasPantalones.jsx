@@ -63,11 +63,11 @@ export default function GuiaTallasPantalones() {
 
           {/* Card Mensaje */}
           <div className="w-full lg:w-1/3 flex justify-center">
-            <div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-8 flex flex-col justify-center items-center text-center">
-              <h3 className="text-xl font-bold mb-4 text-[var(--color-medio)]">
+            <div className="w-full max-w-xl bg-[var(--color-claro)] rounded-2xl shadow-xl p-8 flex flex-col justify-center items-center text-center opacity-80">
+              <h3 className="text-xl font-bold mb-4">
                 HECHO A TU TALLA PETITE
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-800 leading-relaxed">
                 Todas las prendas que se ofrecen son especializadas para tallas petite,
                 con nuevo molde y tallas diferentes a las que se ofrecen en el mercado.
               </p>
