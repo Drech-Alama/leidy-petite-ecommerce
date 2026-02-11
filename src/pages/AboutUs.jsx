@@ -57,7 +57,7 @@ export default function AboutUs() {
       </section>
 
       {/* HISTORIA */}
-      <section className="max-w-7xl mx-auto p-1 py-16 grid md:grid-cols-2 gap-12 items-center">
+      <section className="max-w-7xl mx-auto p-14 py-16 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl font-semibold mb-4">Nuestra Historia</h2>
           <p className="text-gray-600 mb-4">
