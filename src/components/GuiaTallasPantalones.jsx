@@ -58,78 +58,95 @@ export default function GuiaTallasPantalones() {
           </p>
         </div>
 
-        {/* Slider container */}
-        <div className="relative overflow-hidden">
-          {/* Slides */}
-          <div
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{
-              transform: `translateX(-${current * 100}%)`,
-            }}
-          >
-            {tablas.map((tabla, index) => (
-              <div
-                key={index}
-                className="w-full flex-shrink-0 flex justify-center"
-              >
-                <div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-6">
-                  <h3 className="text-center text-lg font-semibold mb-4 text-gray-800">
-                    {tabla.titulo}
-                  </h3>
+{/* Slider + Card container */}
+<div className="flex flex-col items-center lg:flex-row gap-8 lg:items-stretch">
 
-                  <table className="w-full border border-gray-200 text-center text-sm rounded-lg overflow-hidden">
-                    <tbody>
-                      {tabla.filas.map((fila, i) => (
-                        <tr
-                          key={i}
-                          className={
-                            i === 0
-                              ? "bg-[var(--color-claro)] font-semibold"
-                              : ""
-                          }
-                        >
-                          {fila.map((celda, j) => (
-                            <td
-                              key={j}
-                              className={`border px-2 py-2 ${
-                                j === 0
-                                  ? "font-semibold text-gray-800"
-                                  : "text-gray-700"
-                              }`}
-                            >
-                              {celda}
-                            </td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+    {/* Card Mensaje */}
+ <div className="w-full lg:w-1/3 flex justify-center">
+<div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-8 flex flex-col justify-center items-center text-center">
+      <h3 className="text-xl font-bold mb-4 text-[var(--color-medio)]">
+        INFORMACIÓN IMPORTANTE
+      </h3>
+      <p className="text-gray-700 leading-relaxed">
+        Todas las prendas que se ofrecen son especializadas para tallas petite,
+        con nuevo molde y tallas diferentes a las que se ofrecen en el mercado.
+      </p>
+    </div>
+  </div>
+  
+  {/* Slider */}
+  <div className="relative overflow-hidden w-full lg:w-2/3">
+    {/* Slides */}
+    <div
+      className="flex transition-transform duration-500 ease-in-out"
+      style={{
+        transform: `translateX(-${current * 100}%)`,
+      }}
+    >
+      {tablas.map((tabla, index) => (
+        <div
+          key={index}
+          className="w-full flex-shrink-0 flex justify-center"
+        >
+          <div className="w-full max-w-xl bg-white rounded-2xl shadow-xl p-6">
+            <h3 className="text-center text-lg font-semibold mb-4 text-gray-800">
+              {tabla.titulo}
+            </h3>
 
-                  <p className="text-md text-center text-black font-semibold mt-4">
-                    Talla C "corto": Diseñada especialmente para personas
-                    "petite".
-                  </p>
-                </div>
-              </div>
-            ))}
+            <table className="w-full border border-gray-200 text-center text-sm rounded-lg overflow-hidden">
+              <tbody>
+                {tabla.filas.map((fila, i) => (
+                  <tr
+                    key={i}
+                    className={
+                      i === 0
+                        ? "bg-[var(--color-claro)] font-semibold"
+                        : ""
+                    }
+                  >
+                    {fila.map((celda, j) => (
+                      <td
+                        key={j}
+                        className={`border px-2 py-2 ${
+                          j === 0
+                            ? "font-semibold text-gray-800"
+                            : "text-gray-700"
+                        }`}
+                      >
+                        {celda}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+
+            <p className="text-md text-center text-black font-semibold mt-4">
+              Talla C "corto": Diseñada especialmente para personas
+              "petite".
+            </p>
           </div>
-
-          {/* Botones */}
-          <button
-            onClick={prev}
-            className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
-          >
-            ‹
-          </button>
-
-          <button
-            onClick={next}
-            className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
-          >
-            ›
-          </button>
         </div>
+      ))}
+    </div>
 
+    {/* Botones */}
+    <button
+      onClick={prev}
+      className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
+    >
+      ‹
+    </button>
+
+    <button
+      onClick={next}
+      className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-[var(--color-claro)] text-gray-800 w-10 h-10 rounded-full shadow flex items-center justify-center cursor-pointer"
+    >
+      ›
+    </button>
+  </div>
+
+</div>
         {/* Indicadores */}
         <div className="flex justify-center gap-3 mt-8">
           {tablas.map((_, index) => (

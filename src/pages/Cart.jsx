@@ -13,6 +13,10 @@ export default function Cart() {
         <Link to="/shop" className="inline-block text-gray-600 underline">
           ← Seleccionar más productos
         </Link>
+
+        <div className="bg-gray-100 text-gray-800 p-3 rounded text-sm max-w-xl mx-auto my-5">
+          🛍️ Los envíos son gratis y se entregan a nivel nacional.
+        </div>
       </div>
     );
   }
@@ -22,6 +26,10 @@ export default function Cart() {
       <Link to="/shop" className="inline-block text-gray-600 underline py-5">
         ← Seleccionar más productos
       </Link>
+
+      <div className="bg-gray-100 text-gray-800 p-3 rounded text-sm">
+        🛍️ Los envíos son gratis y se entregan a nivel nacional.
+      </div>
 
       {cart.map((item) => (
         <CartItem key={item.id} item={item} />

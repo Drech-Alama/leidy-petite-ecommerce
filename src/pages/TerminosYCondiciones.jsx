@@ -24,7 +24,7 @@ La elección correcta de la talla es responsabilidad del cliente una vez revisad
     },
     {
         title: "Precios y pagos",
-        content: `Todos los precios están expresados en soles (S/) e incluyen el IGV (18%).\n\nAceptamos pagos mediante Yape y tarjetas. El pedido será procesado una vez confirmado el pago.`,
+        content: `Todos los precios están expresados en soles (S/) e incluyen el IGV (18%).\n\nAceptamos pagos mediante Yape, Plin y tarjetas. El pedido será procesado una vez confirmado el pago.`,
     },
     {
         title: "Envíos",
